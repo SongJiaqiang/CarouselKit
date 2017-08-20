@@ -15,7 +15,6 @@
 		635AD25D1F499A8F002AFE0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635AD25B1F499A8F002AFE0D /* LaunchScreen.storyboard */; };
 		635AD2681F499A90002AFE0D /* CarouselKitSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 635AD2671F499A90002AFE0D /* CarouselKitSampleTests.m */; };
 		635AD2761F499A99002AFE0D /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 635AD2741F499A99002AFE0D /* iCarousel.m */; };
-		635AD2771F499A99002AFE0D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 635AD2751F499A99002AFE0D /* Info.plist */; };
 		635AD27C1F499E17002AFE0D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 635AD2791F499E17002AFE0D /* background.png */; };
 		635AD27D1F499E17002AFE0D /* page.png in Resources */ = {isa = PBXBuildFile; fileRef = 635AD27A1F499E17002AFE0D /* page.png */; };
 		635AD27E1F499E17002AFE0D /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 635AD27B1F499E17002AFE0D /* placeholder.png */; };
@@ -26,7 +25,6 @@
 		635AD29A1F499E3F002AFE0D /* CarouselKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 635AD2841F499E3F002AFE0D /* CarouselKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		635AD2A21F499E48002AFE0D /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 635AD2731F499A99002AFE0D /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		635AD2A31F499E48002AFE0D /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 635AD2741F499A99002AFE0D /* iCarousel.m */; };
-		635AD2A41F499E48002AFE0D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 635AD2751F499A99002AFE0D /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +88,6 @@
 		635AD2691F499A90002AFE0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		635AD2731F499A99002AFE0D /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		635AD2741F499A99002AFE0D /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
-		635AD2751F499A99002AFE0D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		635AD2791F499E17002AFE0D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		635AD27A1F499E17002AFE0D /* page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page.png; sourceTree = "<group>"; };
 		635AD27B1F499E17002AFE0D /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
@@ -198,7 +195,6 @@
 			children = (
 				635AD2731F499A99002AFE0D /* iCarousel.h */,
 				635AD2741F499A99002AFE0D /* iCarousel.m */,
-				635AD2751F499A99002AFE0D /* Info.plist */,
 			);
 			name = iCarousel;
 			path = ../iCarousel/iCarousel;
@@ -381,7 +377,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				635AD2771F499A99002AFE0D /* Info.plist in Resources */,
 				635AD27C1F499E17002AFE0D /* background.png in Resources */,
 				635AD27D1F499E17002AFE0D /* page.png in Resources */,
 				635AD25D1F499A8F002AFE0D /* LaunchScreen.storyboard in Resources */,
@@ -402,7 +397,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				635AD2A41F499E48002AFE0D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -725,6 +719,7 @@
 				635AD26E1F499A90002AFE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		635AD26F1F499A90002AFE0D /* Build configuration list for PBXNativeTarget "CarouselKitSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -733,6 +728,7 @@
 				635AD2711F499A90002AFE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		635AD29B1F499E3F002AFE0D /* Build configuration list for PBXNativeTarget "CarouselKit" */ = {
 			isa = XCConfigurationList;
@@ -741,6 +737,7 @@
 				635AD29D1F499E3F002AFE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		635AD29F1F499E3F002AFE0D /* Build configuration list for PBXNativeTarget "CarouselKitTests" */ = {
 			isa = XCConfigurationList;
@@ -749,6 +746,7 @@
 				635AD2A11F499E3F002AFE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
